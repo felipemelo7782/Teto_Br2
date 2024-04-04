@@ -15,7 +15,7 @@
 
     <item android:id="@+id/mEventos"
         android:title="@string/txt_eventos"
-        android:icon="@drawable/baseline_settings_24"/>
+        android:icon="@drawable/evento"/>
 
     <item android:id="@+id/mPerfil"
         android:title="@string/txt_perfil"
