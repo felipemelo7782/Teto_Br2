@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TetoBr" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="fontFamily">@font/roboto_regular</item>
+        <!-- Cor principal do aplicativo --><!-- cor primaria(botoes e tals)-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Cores do tema -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!-- Cor escura primária, geralmente usada na barra de status -->
+        <item name="colorAccent">@color/colorAccent</item> <!-- Cor de destaque/acento -->
+
+        <!-- Outras cores comuns -->
+        <item name="colorControlNormal">@color/colorControlNormal</item> <!-- Cor padrão dos controles -->
+        <item name="colorControlActivated">@color/colorControlActivated</item> <!-- Cor dos controles ativados (como um botão pressionado) -->
+        <item name="colorControlHighlight">@color/colorControlHighlight</item> <!-- Cor de destaque dos controles -->
+        <item name="colorButtonNormal">@color/colorButtonNormal</item> <!-- Cor padrão dos botões -->
+        <item name="colorSwitchThumbNormal">@color/colorSwitchThumbNormal</item> <!-- Cor padrão do polegar de um switch -->
+
+    </style>
+    <style name="Base2.Theme.TetoBr" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="fontFamily">@font/roboto_regular</item>
+        <!-- Cor principal do aplicativo --><!-- cor primaria(botoes e tals)-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Cores do tema -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!-- Cor escura primária, geralmente usada na barra de status -->
+        <item name="colorAccent">@color/colorAccent</item> <!-- Cor de destaque/acento -->
+
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <!-- Outras cores comuns -->
+        <item name="colorControlNormal">@color/colorControlNormal</item> <!-- Cor padrão dos controles -->
+        <item name="colorControlActivated">@color/colorControlActivated</item> <!-- Cor dos controles ativados (como um botão pressionado) -->
+        <item name="colorControlHighlight">@color/colorControlHighlight</item> <!-- Cor de destaque dos controles -->
+        <item name="colorButtonNormal">@color/colorButtonNormal</item> <!-- Cor padrão dos botões -->
+        <item name="colorSwitchThumbNormal">@color/colorSwitchThumbNormal</item> <!-- Cor padrão do polegar de um switch -->
+
+    </style>
+
+    <style name="ButtonRounded" parent="Widget.AppCompat.Button">
+        <item name="fontFamily">@font/roboto_family</item>
+        <!-- Defina o fundo arredondado com borda -->
+        <item name="android:background">@drawable/bg_rounded</item>
+
+        <!-- Outras definições de estilo para o botão aqui -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="ButtonRounded2" parent="Widget.AppCompat.Button">
+        <item name="fontFamily">@font/roboto_family</item>
+        <!-- Defina o fundo arredondado com borda -->
+        <item name="android:background">@drawable/bg_rounded2</item>
+        <!-- Outras definições de estilo para o botão aqui -->
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="Theme.TetoBr" parent="Base.Theme.TetoBr" />
+</resources>

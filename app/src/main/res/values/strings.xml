@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Teto Br</string>
+    <string name="btn_entrar_na_conta">Entrar com minha conta</string>
+    <string name="adicionar">ADICIONAR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="txt_inicio">Início</string>
+    <string name="txt_pesquisar">Pesquisar</string>
+    <string name="txt_eventos">Eventos</string>
+    <string name="txt_perfil">Perfil</string>
+    <string name="txt_todos">Todos</string>
+    <string name="txt_recentes">Recentes</string>
+</resources>

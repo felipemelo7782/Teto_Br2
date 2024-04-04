@@ -1,0 +1,13 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Teto -->
+    <!-- Background azul -->
+    <item
+        android:drawable="@drawable/bg_main">
+
+    </item>
+    <item
+    android:drawable="@drawable/teto"
+        android:height="200dp"
+        android:gravity="bottom"
+        />
+</layer-list>
