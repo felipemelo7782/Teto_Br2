@@ -20,6 +20,14 @@
         <item name="colorSwitchThumbNormal">@color/colorSwitchThumbNormal</item> <!-- Cor padrão do polegar de um switch -->
 
     </style>
+    <style name="AppViewPagerStyle" parent="Base.Theme.TetoBr">
+        <!-- Customize attributes here -->
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginBottom">14dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+
+
     <style name="Base2.Theme.TetoBr" parent="Theme.MaterialComponents.DayNight.NoActionBar">
 
         <!-- Customize your light theme here. -->

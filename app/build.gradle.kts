@@ -49,6 +49,7 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.databinding)
+    implementation(libs.circleimageview)
     implementation(libs.androidx.coordinatorlayout)
     //kapt(libs.androidx.databindingCompiler)
     testImplementation(libs.junit)

@@ -15,6 +15,7 @@ import com.techo.tetobr.fragments.EventsFragment
 import com.techo.tetobr.fragments.HomeFragment
 import com.techo.tetobr.fragments.ProfileFragment
 import com.techo.tetobr.fragments.SearchFragment
+import com.techo.tetobr.fragments.UsersFragment
 
 
 class HomeActivity : AppCompatActivity() {
@@ -23,7 +24,6 @@ class HomeActivity : AppCompatActivity() {
         enableEdgeToEdge()
         val binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         //-----------
         val statusBarHeight = getStatusBarHeight()
         binding.let {
@@ -33,13 +33,12 @@ class HomeActivity : AppCompatActivity() {
             hometoolbar.layoutParams = layoutParams }
         //-----------
         initializeLogic(binding)
-
     }
 
     private fun initializeLogic(it: ActivityHomeBinding) {
         val fragmentArrayList: ArrayList<Fragment> = ArrayList<Fragment>()
         fragmentArrayList.add(HomeFragment())
-        fragmentArrayList.add(SearchFragment())
+        fragmentArrayList.add(UsersFragment())
         fragmentArrayList.add(EventsFragment())
         fragmentArrayList.add(ProfileFragment())
         val adapterViewPager = AdapterViewPager(this, fragmentArrayList)

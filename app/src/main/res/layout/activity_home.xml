@@ -7,27 +7,28 @@
 
     </data>
     <LinearLayout
+        android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         tools:context=".activitys.MainActivity"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/blue"
         android:gravity="top">
         <androidx.coordinatorlayout.widget.CoordinatorLayout
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             >
-
             <androidx.viewpager2.widget.ViewPager2
                 android:id="@+id/viewpager"
                 android:background="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="20dp"
+                android:layout_marginBottom="14dp"
                 android:paddingBottom="5dp"
                 />
             <com.google.android.material.bottomappbar.BottomAppBar
+                android:theme="@style/Base2.Theme.TetoBr"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
@@ -45,11 +46,12 @@
                     app:menu="@menu/bottom_nav_menu"
                     app:labelVisibilityMode="auto"
                     android:background="@drawable/transparent_background"
-
+                    android:theme="@style/Base2.Theme.TetoBr"
                     />
             </com.google.android.material.bottomappbar.BottomAppBar>
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:theme="@style/Base2.Theme.TetoBr"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/blueSecondary"
@@ -59,9 +61,6 @@
                 android:id="@+id/fab"
                 app:tint="@color/white"
                 android:contentDescription="@string/adicionar" />
-
-
-
         </androidx.coordinatorlayout.widget.CoordinatorLayout>
     </LinearLayout>
 </layout>
