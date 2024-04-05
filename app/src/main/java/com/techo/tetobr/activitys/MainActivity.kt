@@ -1,5 +1,6 @@
 package com.techo.tetobr.activitys
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -15,6 +16,16 @@ class MainActivity : AppCompatActivity() {
 
         binding.let {
 
+            it.btnEntrar.setOnClickListener {
+                    val intent = Intent(this, HomeActivity::class.java)
+                    startActivity(intent)
+                    finish()
+            }
+//            val handler = Handler(Looper.getMainLooper())
+//            handler.postDelayed({
+//                val intent = Intent(this, NewBoletosActivity::class.java)
+//                startActivity(intent)
+//            }, 100)
         }
     }
 }

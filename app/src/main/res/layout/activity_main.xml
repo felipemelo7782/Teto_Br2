@@ -127,7 +127,7 @@
                 android:layout_height="150dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/logo_teto"
-                android:layout_marginBottom="130dp"/>
+                android:layout_marginBottom="50dp"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -145,21 +145,57 @@
                     android:layout_gravity="start"
                     android:text="Entre com sua conta:"
                     android:textColor="@color/white"
-                    android:textSize="25sp"
+                    android:textSize="23sp"
                     android:textStyle="bold" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_gravity="start"
+                    android:padding="4dp"
+                    android:hint="Email ou nome de usuário"
+                    android:textColorHint="@color/whiteSecondary"
+                    android:textSize="18sp"
+                    android:background="@color/transparent"
+                    android:drawableStart="@drawable/ic_person_24"
+                    android:drawableTint="@color/white"
+                    android:drawablePadding="4dp"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.4dp"
+                    android:layout_marginHorizontal="38dp"
+                    android:background="@drawable/bg_rounded"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:hint="Insira sua senha"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="4dp"
+                    android:textColorHint="@color/whiteSecondary"
+                    android:textSize="18sp"
+                    android:padding="4dp"
+                    android:background="@color/transparent"
+                    android:drawableStart="@drawable/ic_lock_24"
+                    android:drawableTint="@color/white"
+                    android:drawablePadding="4dp"
+                    />
 
                 <Button
-                    android:id="@+id/buttom12"
+                    android:id="@+id/btn_entrar"
                     style="@style/ButtonRounded2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/btn_entrar_na_conta"
+                    android:text="@string/btn_entrar"
                     android:gravity="center"
                     android:paddingHorizontal="10dp"
                     android:paddingVertical="8dp"
                     android:layout_marginHorizontal="40dp"
-                    android:textAllCaps="false"
-                    android:textSize="22sp"
+                    android:layout_marginTop="20dp"
+                    android:textAllCaps="true"
+                    android:textSize="19sp"
                     android:textStyle="bold"
                     />
                 <LinearLayout
@@ -189,6 +225,220 @@
                         android:layout_height="1dp"
                         android:background="@drawable/rounded"
                         />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Acesse tambem com:"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginHorizontal="25dp">
+                    <ImageButton
+                        android:layout_width="43dp"
+                        android:layout_height="43dp"
+                        android:scaleType="fitCenter"
+                        android:background="@color/transparent"
+                        android:src="@drawable/ic_google"
+                        />
+
+                    <ImageButton
+                        android:layout_width="43dp"
+                        android:layout_height="43dp"
+                        android:scaleType="fitCenter"
+                        android:layout_marginHorizontal="4dp"
+                        android:background="@color/transparent"
+                        android:src="@drawable/ic_facebook"
+                        />
+
+                    <ImageButton
+                        android:layout_width="43dp"
+                        android:layout_height="43dp"
+                        android:scaleType="fitCenter"
+                        android:background="@color/transparent"
+                        android:src="@drawable/ic_apple" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Não tem uma conta?"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:paddingStart="2dp"
+                    android:text="Cadastre-se"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:orientation="vertical"
+            android:gravity="bottom|center_horizontal"
+            android:background="@drawable/background_main"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo_teto"
+                android:layout_marginBottom="50dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="200dp"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_gravity="start"
+                    android:text="Entre com sua conta:"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_gravity="start"
+                    android:padding="4dp"
+                    android:hint="Email ou nome de usuário"
+                    android:textColorHint="@color/whiteSecondary"
+                    android:textSize="18sp"
+                    android:background="@color/transparent"
+                    android:drawableStart="@drawable/ic_person_24"
+                    android:drawableTint="@color/white"
+                    android:drawablePadding="4dp"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.4dp"
+                    android:layout_marginHorizontal="38dp"
+                    android:background="@drawable/bg_rounded"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:hint="Insira sua senha"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="4dp"
+                    android:textColorHint="@color/whiteSecondary"
+                    android:textSize="18sp"
+                    android:padding="4dp"
+                    android:background="@color/transparent"
+                    android:drawableStart="@drawable/ic_lock_24"
+                    android:drawableTint="@color/white"
+                    android:drawablePadding="4dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_cadastrar"
+                    style="@style/ButtonRounded2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_entrar"
+                    android:gravity="center"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="8dp"
+                    android:layout_marginHorizontal="40dp"
+                    android:layout_marginTop="20dp"
+                    android:textAllCaps="true"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="25dp">
+                    <View
+                        android:rotation="180"
+                        android:layout_width="100dp"
+                        android:layout_height="1dp"
+                        android:background="@drawable/rounded"
+                        />
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:layout_marginHorizontal="8dp"
+                        android:text="Ou"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        />
+                    <View
+                        android:layout_width="100dp"
+                        android:layout_height="1dp"
+                        android:background="@drawable/rounded"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Acesse tambem com:"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginHorizontal="25dp">
+                    <ImageButton
+                        android:layout_width="43dp"
+                        android:layout_height="43dp"
+                        android:scaleType="fitCenter"
+                        android:background="@color/transparent"
+                        android:src="@drawable/ic_google"
+                        />
+
+                    <ImageButton
+                        android:layout_width="43dp"
+                        android:layout_height="43dp"
+                        android:scaleType="fitCenter"
+                        android:layout_marginHorizontal="4dp"
+                        android:background="@color/transparent"
+                        android:src="@drawable/ic_facebook"
+                        />
+
+                    <ImageButton
+                        android:layout_width="43dp"
+                        android:layout_height="43dp"
+                        android:scaleType="fitCenter"
+                        android:background="@color/transparent"
+                        android:src="@drawable/ic_apple" />
                 </LinearLayout>
 
             </LinearLayout>

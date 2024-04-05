@@ -34,9 +34,9 @@ class HomeActivity : AppCompatActivity() {
         //-----------
         initializeLogic(binding)
     }
-
     private fun initializeLogic(it: ActivityHomeBinding) {
         val fragmentArrayList: ArrayList<Fragment> = ArrayList<Fragment>()
+        val ArrayList: ArrayList<Fragment> = ArrayList<Fragment>()
         fragmentArrayList.add(HomeFragment())
         fragmentArrayList.add(UsersFragment())
         fragmentArrayList.add(EventsFragment())
@@ -71,7 +71,6 @@ class HomeActivity : AppCompatActivity() {
             true
         }
     }
-
     @SuppressLint("DiscouragedApi", "InternalInsetResource")
     private fun getStatusBarHeight(): Int {
         var result = 0
