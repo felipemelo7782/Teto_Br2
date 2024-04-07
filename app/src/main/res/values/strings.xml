@@ -14,4 +14,5 @@
     <string name="txt_todos">Todos</string>
     <string name="txt_recentes">Recentes</string>
     <string name="txt_configuraces">CONFIGURAÇÕES</string>
+    <string name="btn_cadastrar">Continuar</string>
 </resources>

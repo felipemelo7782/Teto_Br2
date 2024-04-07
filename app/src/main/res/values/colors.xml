@@ -2,7 +2,7 @@
     <!-- Cores do tema -->
     <color name="colorPrimary">#3F51B5</color> <!-- Cor principal do aplicativo -->
     <color name="colorPrimaryDark">#303F9F</color> <!-- Cor escura primária, geralmente usada na barra de status -->
-    <color name="colorAccent">#FF4081</color> <!-- Cor de destaque/acento -->
+    <color name="colorAccent">@color/yellow</color> <!-- Cor de destaque/acento -->
 
     <!-- Outras cores comuns -->
     <color name="colorControlNormal">#BDBDBD</color> <!-- Cor padrão dos controles -->
