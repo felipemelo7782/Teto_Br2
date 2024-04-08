@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.let {
 
-            it.btnEntrar.setOnClickListener {
+            it.btnCadastrar.setOnClickListener {
                     val intent = Intent(this, HomeActivity::class.java)
                     startActivity(intent)
                     finish()

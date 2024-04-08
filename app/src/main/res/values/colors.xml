@@ -6,8 +6,8 @@
 
     <!-- Outras cores comuns -->
     <color name="colorControlNormal">#BDBDBD</color> <!-- Cor padrão dos controles -->
-    <color name="colorControlActivated">#FF4081</color> <!-- Cor dos controles ativados (como um botão pressionado) -->
-    <color name="colorControlHighlight">#BDBDBD</color> <!-- Cor de destaque dos controles -->
+    <color name="colorControlActivated">@color/yellow</color> <!-- Cor dos controles ativados (como um botão pressionado) -->
+    <color name="colorControlHighlight">@color/yellow</color> <!-- Cor de destaque dos controles -->
     <color name="colorButtonNormal">#FF4081</color> <!-- Cor padrão dos botões -->
     <color name="colorSwitchThumbNormal">#FFFFFF</color> <!-- Cor padrão do polegar de um switch -->
 
